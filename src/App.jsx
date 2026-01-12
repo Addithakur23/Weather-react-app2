@@ -80,7 +80,7 @@ function App() {
           <sup className='degree' >°C</sup>
         </p>
         <p className='description'>{Weather.weather[0].description.toUpperCase()}</p>
-        <p className='wind-speed'>Wind Speed:{Weather.wind.speed}m/s</p>
+        <p className='wind-speed'>Wind Speed: {Weather.wind.speed}m/s</p>
       
       </div>
       
